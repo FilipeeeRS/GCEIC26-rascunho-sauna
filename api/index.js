@@ -1,9 +1,11 @@
+
 const app = require('./src/app');
 
 const PORT = process.env.PORT || 3001;
 
-app.listen(PORT, () => {
-  console.log(✅ SaunaCalc Elite rodando em http://localhost:${PORT});
-  console.log(`   Health check: http://localhost:${PORT}/health`);
-  console.log(`   Simulação:    http://localhost:${PORT}/`);
+app.listen( PORT, () => {
+  console.log(` API rodando em ${PORT} ajuste 4`); 
+  console.log(` para verificar saude da API digite  : `);
+  console.log(` http://localhost:${PORT}/health`);	
+
 });
