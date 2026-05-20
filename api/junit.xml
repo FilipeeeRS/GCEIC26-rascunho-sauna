@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="0.689">
+  <testsuite name="Teste de Saude -&gt; GET /health" errors="0" failures="0" skipped="0" timestamp="2026-05-20T22:16:42" time="0.489" tests="2">
+    <testcase classname="Teste de Saude -&gt; GET /health deve retornar status ok" name="Teste de Saude -&gt; GET /health deve retornar status ok" time="0.029">
+    </testcase>
+    <testcase classname="GET /api/tabelas deve retornar a tebela de constantes " name="GET /api/tabelas deve retornar a tebela de constantes " time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="Teste de unitario" errors="0" failures="0" skipped="0" timestamp="2026-05-20T22:16:43" time="0.101" tests="5">
+    <testcase classname="Teste de unitario deve retornar calculos de area corretamente" name="Teste de unitario deve retornar calculos de area corretamente" time="0.001">
+    </testcase>
+    <testcase classname="Teste de unitario deve lancar erro para valores invalidos de area" name="Teste de unitario deve lancar erro para valores invalidos de area" time="0.01">
+    </testcase>
+    <testcase classname="Testes das Funções de Cálculo da Sauna Deve encontrar a potência correta para 5m3" name="Testes das Funções de Cálculo da Sauna Deve encontrar a potência correta para 5m3" time="0.001">
+    </testcase>
+    <testcase classname="Testes das Funções de Cálculo da Sauna Deve calcular o custo do kit para sauna seca de 5m3" name="Testes das Funções de Cálculo da Sauna Deve calcular o custo do kit para sauna seca de 5m3" time="0.001">
+    </testcase>
+    <testcase classname="Testes das Funções de Cálculo da Sauna Deve lançar erro se o tipo de sauna for inválido" name="Testes das Funções de Cálculo da Sauna Deve lançar erro se o tipo de sauna for inválido" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

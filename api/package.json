@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest --coverage --verbose --ci --reporters=default --testResultsProcessor=jest-junit"
+    "test": "jest --coverage --reporters=default --reporters=jest-junit"
   },
   "keywords": [
     "teste",
@@ -22,6 +22,10 @@
   "devDependencies": {
     "jest": "^30.3.0",
     "jest-junit": "^17.0.0",
+    "just": "^0.1.8",
     "supertest": "^7.2.2"
+  },
+  "directories": {
+    "test": "tests"
   }
 }

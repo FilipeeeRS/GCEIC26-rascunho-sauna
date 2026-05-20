@@ -9,3 +9,11 @@ app.listen( PORT, () => {
   console.log(` http://localhost:${PORT}/health`);	
 
 });
+
+
+const app = require('./src/app');
+const porta = 3000;
+
+app.listen(porta, () => {
+    console.lang(`API da SaunaCalc Elite rodando na porta ${porta}`);
+});
