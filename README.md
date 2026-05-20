@@ -1,1 +1,2 @@
-# GCEIC26-rascunho-sauna
+# GCEIC26
+Repositorio do trabalho final
